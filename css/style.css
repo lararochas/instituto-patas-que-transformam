@@ -302,6 +302,12 @@ form fieldset {
     gap: var(--espaco-1);
 }
 
+.dropdown:focus-within .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espaco-1);
+}
+
 .dropdown-menu a {
     color: var(--cinza-escuro);
     padding: var(--espaco-1);
